@@ -1,0 +1,39 @@
+[
+  {
+    "$formkit": "email",
+    "label": "Email",
+    "help": "Some input help text."
+  },
+  {
+    "$formkit": "email",
+    "label": "Email: with placeholder",
+    "placeholder": "email@domain.com",
+    "help": "Some input help text."
+  },
+  {
+    "$formkit": "email",
+    "label": "Email: with value",
+    "value": "me@formkitfan.com",
+    "help": "Some input help text."
+  },
+  {
+    "$formkit": "email",
+    "label": "Email: invalid",
+    "help": "Some input help text.",
+    "validation": "required",
+    "validationVisibility": "live"
+  },
+  {
+    "$formkit": "email",
+    "label": "Email: with icons",
+    "help": "Some input help text.",
+    "prefixIcon": "email",
+    "suffixIcon": "star"
+  },
+  {
+    "$formkit": "email",
+    "label": "Email",
+    "help": "Some input help text.",
+    "disabled": true
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "$formkit": "week",
+    "label": "Week",
+    "help": "Some input help text."
+  },
+  {
+    "$formkit": "week",
+    "label": "Week: with value",
+    "value": "2025-W02",
+    "help": "Some input help text."
+  },
+  {
+    "$formkit": "week",
+    "label": "Week: invalid",
+    "help": "Some input help text.",
+    "validation": "required",
+    "validationVisibility": "live"
+  },
+  {
+    "$formkit": "week",
+    "label": "Week: with icons",
+    "help": "Some input help text.",
+    "prefixIcon": "time",
+    "suffixIcon": "star"
+  },
+  {
+    "$formkit": "week",
+    "label": "Week: disabled",
+    "help": "Some input help text.",
+    "disabled": true
+  }
+]

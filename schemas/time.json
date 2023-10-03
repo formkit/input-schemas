@@ -1,0 +1,39 @@
+[
+  {
+    "$formkit": "time",
+    "label": "Time",
+    "help": "Some input help text."
+  },
+  {
+    "$formkit": "time",
+    "label": "Time: with placeholder",
+    "placeholder": "Placeholder text",
+    "help": "Some input help text."
+  },
+  {
+    "$formkit": "time",
+    "label": "Time: with value",
+    "value": "23:15",
+    "help": "Some input help text."
+  },
+  {
+    "$formkit": "time",
+    "label": "Time: invalid",
+    "help": "Some input help text.",
+    "validation": "required",
+    "validationVisibility": "live"
+  },
+  {
+    "$formkit": "time",
+    "label": "Time: with icons",
+    "help": "Some input help text.",
+    "prefixIcon": "time",
+    "suffixIcon": "settings"
+  },
+  {
+    "$formkit": "time",
+    "label": "Time: disabled",
+    "help": "Some input help text.",
+    "disabled": true
+  }
+]

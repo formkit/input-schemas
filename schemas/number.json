@@ -1,0 +1,39 @@
+[
+  {
+    "$formkit": "number",
+    "label": "Number",
+    "help": "Some input help text."
+  },
+  {
+    "$formkit": "number",
+    "label": "Number: with placeholder",
+    "placeholder": "Placeholder text",
+    "help": "Some input help text."
+  },
+  {
+    "$formkit": "number",
+    "label": "Number: with value",
+    "value": "123",
+    "help": "Some input help text."
+  },
+  {
+    "$formkit": "number",
+    "label": "Number: invalid",
+    "help": "Some input help text.",
+    "validation": "required",
+    "validationVisibility": "live"
+  },
+  {
+    "$formkit": "number",
+    "label": "Number: with icons",
+    "help": "Some input help text.",
+    "prefixIcon": "number",
+    "suffixIcon": "star"
+  }
+  {
+    "$formkit": "number",
+    "label": "Number: disabled",
+    "help": "Some input help text.",
+    "disabled": true
+  }
+]

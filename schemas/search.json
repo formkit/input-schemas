@@ -1,0 +1,39 @@
+[
+  {
+    "$formkit": "search",
+    "label": "Search",
+    "help": "Some input help text."
+  },
+  {
+    "$formkit": "search",
+    "label": "Search: with placeholder",
+    "placeholder": "Placeholder text",
+    "help": "Some input help text."
+  },
+  {
+    "$formkit": "search",
+    "label": "Search: with value",
+    "value": "The quick brown fox",
+    "help": "Some input help text."
+  },
+  {
+    "$formkit": "search",
+    "label": "Search: invalid",
+    "help": "Some input help text.",
+    "validation": "required",
+    "validationVisibility": "live"
+  },
+  {
+    "$formkit": "search",
+    "label": "Search: with icons",
+    "help": "Some input help text.",
+    "prefixIcon": "search",
+    "suffixIcon": "star"
+  },
+  {
+    "$formkit": "search",
+    "label": "Search: disabled",
+    "help": "Some input help text.",
+    "disabled": true
+  }
+]

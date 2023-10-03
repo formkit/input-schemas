@@ -1,0 +1,33 @@
+[
+  {
+    "$formkit": "date",
+    "label": "Date",
+    "help": "Some input help text."
+  },
+  {
+    "$formkit": "date",
+    "label": "Date: with value",
+    "value": "2011-01-01",
+    "help": "Some input help text."
+  },
+  {
+    "$formkit": "date",
+    "label": "Date: invalid",
+    "help": "Some input help text.",
+    "validation": "required",
+    "validationVisibility": "live"
+  },
+  {
+    "$formkit": "date",
+    "label": "Date: with icons",
+    "help": "Some input help text.",
+    "prefixIcon": "star",
+    "suffixIcon": "settings"
+  },
+  {
+    "$formkit": "date",
+    "label": "Date",
+    "help": "Some input help text.",
+    "disabled": true
+  }
+]

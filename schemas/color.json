@@ -1,0 +1,27 @@
+[
+  {
+    "$formkit": "color",
+    "label": "Color",
+    "help": "Some input help text."
+  },
+  {
+    "$formkit": "color",
+    "label": "Color: invalid",
+    "help": "Some input help text.",
+    "validation": "required",
+    "validationVisibility": "live"
+  },
+  {
+    "$formkit": "color",
+    "label": "Color: with icons",
+    "help": "Some input help text.",
+    "prefixIcon": "color",
+    "suffixIcon": "settings"
+  },
+  {
+    "$formkit": "color",
+    "label": "Color",
+    "help": "Some input help text.",
+    "disabled": true
+  }
+]

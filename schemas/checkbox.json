@@ -1,0 +1,121 @@
+[
+  {
+    "$formkit": "checkbox",
+    "label": "Checkbox",
+    "help": "Some input help text."
+  },
+  {
+    "$formkit": "checkbox",
+    "label": "Checkbox: checked",
+    "value": true,
+    "help": "Some input help text."
+  },
+  {
+    "$formkit": "checkbox",
+    "label": "Checkbox: invalid",
+    "help": "Some input help text.",
+    "validation": "accepted",
+    "validationVisibility": "live"
+  },
+  {
+    "$formkit": "checkbox",
+    "label": "Checkbox: disabled",
+    "help": "Some input help text.",
+    "disabled": true
+  },
+  {
+    "$formkit": "checkbox",
+    "label": "Checkbox: multiple",
+    "help": "Some input help text.",
+    "value": ["option1"],
+    "options": [
+      {
+        "label": "Option 1",
+        "value": "option1"
+      },
+      {
+        "label": "Option 2",
+        "value": "option2",
+        "attrs": {
+          "disabled": true
+        }
+      },
+      {
+        "label": "Option 3",
+        "value": "option3"
+      }
+    ]
+  },
+  {
+    "$formkit": "checkbox",
+    "label": "Checkbox: multiple with option help text",
+    "help": "Some input help text.",
+    "value": ["option1"],
+    "options": [
+      {
+        "label": "Option 1",
+        "value": "option1",
+        "help": "Option help text"
+      },
+      {
+        "label": "Option 2",
+        "value": "option2",
+        "help": "Option help text",
+        "attrs": {
+          "disabled": true
+        }
+      },
+      {
+        "label": "Option 3",
+        "value": "option3",
+        "help": "Option help text"
+      }
+    ]
+  },
+  {
+    "$formkit": "checkbox",
+    "label": "Checkbox: multiple invalid",
+    "help": "Some input help text.",
+    "validation": "min:3",
+    "validationVisibility": "live",
+    "value": ["option1"],
+    "options": [
+      {
+        "label": "Option 1",
+        "value": "option1"
+      },
+      {
+        "label": "Option 2",
+        "value": "option2",
+        "attrs": {
+          "disabled": true
+        }
+      },
+      {
+        "label": "Option 3",
+        "value": "option3"
+      }
+    ]
+  },
+  {
+    "$formkit": "checkbox",
+    "label": "Checkbox: multiple disabled",
+    "help": "Some input help text.",
+    "disabled": true,
+    "value": ["option1"],
+    "options": [
+      {
+        "label": "Option 1",
+        "value": "option1"
+      },
+      {
+        "label": "Option 2",
+        "value": "option2"
+      },
+      {
+        "label": "Option 3",
+        "value": "option3"
+      }
+    ]
+  }
+]

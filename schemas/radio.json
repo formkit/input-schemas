@@ -1,0 +1,106 @@
+[
+  {
+    "$formkit": "radio",
+    "label": "Radio",
+    "help": "Some input help text.",
+    "options": [
+      {
+        "label": "Option 1",
+        "value": "option1"
+      },
+      {
+        "label": "Option 2",
+        "value": "option2"
+      },
+      {
+        "label": "Option 3",
+        "value": "option3"
+      }
+    ]
+  },
+  {
+    "$formkit": "radio",
+    "label": "Radio: invalid",
+    "help": "Some input help text.",
+    "validation": "required",
+    "validation-visibility": "live",
+    "options": [
+      {
+        "label": "Option 1",
+        "value": "option1"
+      },
+      {
+        "label": "Option 2",
+        "value": "option2"
+      },
+      {
+        "label": "Option 3",
+        "value": "option3"
+      }
+    ]
+  },
+  {
+    "$formkit": "radio",
+    "label": "Radio: with option help text",
+    "help": "Some input help text.",
+    "options": [
+      {
+        "label": "Option 1",
+        "value": "option1",
+        "help": "Option help text"
+      },
+      {
+        "label": "Option 2",
+        "value": "option2",
+        "help": "Option help text"
+      },
+      {
+        "label": "Option 3",
+        "value": "option3",
+        "help": "Option help text"
+      }
+    ]
+  },
+  {
+    "$formkit": "radio",
+    "label": "Radio: with disabled option",
+    "help": "Some input help text.",
+    "options": [
+      {
+        "label": "Option 1",
+        "value": "option1"
+      },
+      {
+        "label": "Option 2",
+        "value": "option2",
+        "attrs": {
+          "disabled": true
+        }
+      },
+      {
+        "label": "Option 3",
+        "value": "option3"
+      }
+    ]
+  },
+  {
+    "$formkit": "radio",
+    "label": "Radio: disabled",
+    "help": "Some input help text.",
+    "disabled": true,
+    "options": [
+      {
+        "label": "Option 1",
+        "value": "option1"
+      },
+      {
+        "label": "Option 2",
+        "value": "option2"
+      },
+      {
+        "label": "Option 3",
+        "value": "option3"
+      }
+    ]
+  }
+]

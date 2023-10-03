@@ -1,0 +1,79 @@
+[
+  {
+    "$formkit": "file",
+    "label": "File",
+    "help": "Some input help text."
+  },
+  {
+    "$formkit": "file",
+    "label": "File: with value",
+    "value": [{ "name": "purple-taste.pdf" }],
+    "help": "Some input help text."
+  },
+  {
+    "$formkit": "file",
+    "label": "File: invalid",
+    "help": "Some input help text.",
+    "validation": "required",
+    "validationVisibility": "live"
+  },
+  {
+    "$formkit": "file",
+    "label": "File: with icons",
+    "help": "Some input help text.",
+    "prefixIcon": "file",
+    "suffixIcon": "group"
+  },
+  {
+    "$formkit": "file",
+    "label": "File: disabled",
+    "value": [{ "name": "purple-taste.pdf" }],
+    "help": "Some input help text.",
+    "disabled": true
+  },
+  {
+    "$formkit": "file",
+    "label": "File: multiple values",
+    "multiple": "true",
+    "value": [
+      { "name": "purple-taste.pdf" },
+      { "name": "chocolate-recipe.docx" }
+    ],
+    "help": "Some input help text."
+  },
+  {
+    "$formkit": "file",
+    "label": "File: multiple values invalid",
+    "help": "Some input help text.",
+    "multiple": "true",
+    "value": [
+      { "name": "purple-taste.pdf" },
+      { "name": "chocolate-recipe.docx" }
+    ],
+    "validation": "min:3",
+    "validationVisibility": "live"
+  },
+  {
+    "$formkit": "file",
+    "label": "File: multiple values with icons",
+    "help": "Some input help text.",
+    "multiple": "true",
+    "value": [
+      { "name": "purple-taste.pdf" },
+      { "name": "chocolate-recipe.docx" }
+    ],
+    "prefixIcon": "file",
+    "suffixIcon": "group"
+  },
+  {
+    "$formkit": "file",
+    "label": "File: multiple values disabled",
+    "multiple": "true",
+    "value": [
+      { "name": "purple-taste.pdf" },
+      { "name": "chocolate-recipe.docx" }
+    ],
+    "help": "Some input help text.",
+    "disabled": true
+  }
+]

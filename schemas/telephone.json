@@ -1,0 +1,39 @@
+[
+  {
+    "$formkit": "tel",
+    "label": "Telephone",
+    "help": "Some input help text."
+  },
+  {
+    "$formkit": "tel",
+    "label": "Telephone: with placeholder",
+    "placeholder": "Placeholder text",
+    "help": "Some input help text."
+  },
+  {
+    "$formkit": "tel",
+    "label": "Telephone: with value",
+    "value": "123-456-7890",
+    "help": "Some input help text."
+  },
+  {
+    "$formkit": "tel",
+    "label": "Telephone: invalid",
+    "help": "Some input help text.",
+    "validation": "required",
+    "validationVisibility": "live"
+  },
+  {
+    "$formkit": "tel",
+    "label": "Telephone: with icons",
+    "help": "Some input help text.",
+    "prefixIcon": "phone",
+    "suffixIcon": "star"
+  },
+  {
+    "$formkit": "tel",
+    "label": "Telephone: disabled",
+    "help": "Some input help text.",
+    "disabled": true
+  }
+]

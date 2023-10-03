@@ -1,0 +1,22 @@
+[
+  {
+    "$formkit": "submit",
+    "label": "Submit:"
+  },
+  {
+    "$formkit": "submit",
+    "label": "Submit: with help text",
+    "help": "Some button help text."
+  },
+  {
+    "$formkit": "submit",
+    "label": "Submit: with icons",
+    "prefixIcon": "star",
+    "suffixIcon": "submit"
+  }
+  {
+    "$formkit": "submit",
+    "label": "Submit: disabled",
+    "disabled": true
+  }
+]

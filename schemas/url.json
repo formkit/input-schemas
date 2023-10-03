@@ -1,0 +1,39 @@
+[
+  {
+    "$formkit": "url",
+    "label": "URL",
+    "help": "Some input help text."
+  },
+  {
+    "$formkit": "url",
+    "label": "URL: with placeholder",
+    "placeholder": "https://www.example.com...",
+    "help": "Some input help text."
+  },
+  {
+    "$formkit": "url",
+    "label": "URL: with value",
+    "value": "https://formkit.com",
+    "help": "Some input help text."
+  },
+  {
+    "$formkit": "url",
+    "label": "URL: invalid",
+    "help": "Some input help text.",
+    "validation": "required",
+    "validationVisibility": "live"
+  },
+  {
+    "$formkit": "url",
+    "label": "URL: with icons",
+    "help": "Some input help text.",
+    "prefixIcon": "url",
+    "suffixIcon": "submit"
+  },
+  {
+    "$formkit": "url",
+    "label": "URL: disabled",
+    "help": "Some input help text.",
+    "disabled": true
+  }
+]

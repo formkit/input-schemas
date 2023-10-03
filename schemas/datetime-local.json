@@ -1,0 +1,33 @@
+[
+  {
+    "$formkit": "datetime-local",
+    "label": "Datetime-local",
+    "help": "Some input help text."
+  },
+  {
+    "$formkit": "datetime-local",
+    "label": "Datetime-local: with value",
+    "value": "2020-03-13T18:22",
+    "help": "Some input help text."
+  },
+  {
+    "$formkit": "datetime-local",
+    "label": "Datetime-local: invalid",
+    "help": "Some input help text.",
+    "validation": "required",
+    "validationVisibility": "live"
+  },
+  {
+    "$formkit": "datetime-local",
+    "label": "Datetime-local: with icons",
+    "help": "Some input help text.",
+    "prefixIcon": "date",
+    "suffixIcon": "settings"
+  },
+  {
+    "$formkit": "datetime-local",
+    "label": "Datetime-local",
+    "help": "Some input help text.",
+    "disabled": true
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "$formkit": "month",
+    "label": "Month",
+    "help": "Some input help text."
+  },
+  {
+    "$formkit": "month",
+    "label": "Month: with value",
+    "value": "2011-01-01",
+    "help": "Some input help text."
+  },
+  {
+    "$formkit": "month",
+    "label": "Month: invalid",
+    "help": "Some input help text.",
+    "validation": "required",
+    "validationVisibility": "live"
+  },
+  {
+    "$formkit": "month",
+    "label": "Month: with icons",
+    "help": "Some input help text.",
+    "prefixIcon": "star",
+    "suffixIcon": "settings"
+  },
+  {
+    "$formkit": "month",
+    "label": "Month",
+    "help": "Some input help text.",
+    "disabled": true
+  }
+]

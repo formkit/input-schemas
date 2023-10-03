@@ -1,0 +1,38 @@
+[
+  {
+    "$formkit": "range",
+    "label": "Range",
+    "help": "Some input help text.",
+    "min": 0,
+    "max": 100,
+    "step": 1
+  },
+  {
+    "$formkit": "range",
+    "label": "Range: with value",
+    "value": 50,
+    "help": "Some input help text.",
+    "min": 0,
+    "max": 100,
+    "step": 1
+  },
+  {
+    "$formkit": "range",
+    "label": "Range: with icons",
+    "help": "Some input help text.",
+    "prefixIcon": "sad",
+    "suffixIcon": "happy",
+    "min": 0,
+    "max": 100,
+    "step": 1
+  },
+  {
+    "$formkit": "range",
+    "label": "Range: disabled",
+    "help": "Some input help text.",
+    "disabled": true,
+    "min": 0,
+    "max": 100,
+    "step": 1
+  }
+]
