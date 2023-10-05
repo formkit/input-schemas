@@ -1,4 +1,4 @@
-export default [
+export const core = [
   "button",
   "checkbox",
   "color",
@@ -21,3 +21,20 @@ export default [
   "url",
   "week",
 ]
+
+export const pro = [
+  "autocomplete",
+  // "colorpicker",
+  // "datepicker",
+  // "dropdown",
+  // "mask",
+  // "rating",
+  // "repeater",
+  // "slider",
+  // "taglist",
+  // "toggle",
+  // "transferlist",
+]
+
+const allInputs = [...core, ...pro].sort()
+export default allInputs

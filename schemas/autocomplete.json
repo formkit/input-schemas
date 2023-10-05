@@ -1,0 +1,28 @@
+[
+  {
+    "$formkit": "autocomplete",
+    "label": "Autocomplete",
+    "help": "Some button help text.",
+    "options": ["Option 1", "Option 2", "Option 3"]
+  },
+  {
+    "$formkit": "autocomplete",
+    "label": "Autocomplete: with value",
+    "help": "Some button help text.",
+    "value": "Option 2",
+    "options": ["Option 1", "Option 2", "Option 3"]
+  },
+  {
+    "$formkit": "autocomplete",
+    "label": "Autocomplete: with icons",
+    "prefixIcon": "star",
+    "suffixIcon": "submit",
+    "options": ["Option 1", "Option 2", "Option 3"]
+  },
+  {
+    "$formkit": "autocomplete",
+    "label": "Autocomplete: disabled",
+    "options": ["Option 1", "Option 2", "Option 3"],
+    "disabled": true
+  }
+]
