@@ -27,7 +27,7 @@
     "$formkit": "tel",
     "label": "Telephone: with icons",
     "help": "Some input help text.",
-    "prefixIcon": "phone",
+    "prefixIcon": "telephone",
     "suffixIcon": "star"
   },
   {

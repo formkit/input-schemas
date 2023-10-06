@@ -27,7 +27,7 @@
     "$formkit": "url",
     "label": "URL: with icons",
     "help": "Some input help text.",
-    "prefixIcon": "url",
+    "prefixIcon": "check",
     "suffixIcon": "submit"
   },
   {
