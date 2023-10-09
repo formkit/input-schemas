@@ -101,7 +101,6 @@
     "$formkit": "select",
     "label": "Select: with disabled options",
     "help": "Some input help text.",
-    "disabled": true,
     "options": [
       {
         "label": "Option 1",
