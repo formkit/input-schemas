@@ -41,6 +41,26 @@
   },
   {
     "$formkit": "select",
+    "label": "Select: with truncated value",
+    "value": "option1",
+    "options": [
+      {
+        "label": "Option 1 which is way too long and is going to get truncated by the UI",
+        "value": "option1"
+      },
+      {
+        "label": "Option 2",
+        "value": "option2"
+      },
+      {
+        "label": "Option 3",
+        "value": "option3"
+      }
+    ],
+    "help": "Some input help text."
+  },
+  {
+    "$formkit": "select",
     "label": "Select: invalid",
     "help": "Some input help text.",
     "validation": "is:option3",
