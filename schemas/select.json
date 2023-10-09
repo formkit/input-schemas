@@ -43,7 +43,7 @@
     "$formkit": "select",
     "label": "Select: invalid",
     "help": "Some input help text.",
-    "validation": "required",
+    "validation": "is:option3",
     "validationVisibility": "live",
     "options": [
       {
