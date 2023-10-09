@@ -2,26 +2,6 @@
   {
     "$formkit": "select",
     "label": "Select",
-    "value": "option2",
-    "options": [
-      {
-        "label": "Option 1",
-        "value": "option1"
-      },
-      {
-        "label": "Option 2",
-        "value": "option2"
-      },
-      {
-        "label": "Option 3",
-        "value": "option3"
-      }
-    ],
-    "help": "Some input help text."
-  },
-  {
-    "$formkit": "select",
-    "label": "Select: with placeholder",
     "placeholder": "Placeholder text",
     "options": [
       {
@@ -55,6 +35,22 @@
       {
         "label": "Option 3",
         "value": "option3"
+      }
+    ],
+    "help": "Some input help text."
+  },
+  {
+    "$formkit": "select",
+    "label": "Select: with option groups",
+    "value": "option1",
+    "options": [
+      {
+        "group": "The first group",
+        "options": ["A", "B", "C"]
+      },
+      {
+        "group": "The second group",
+        "options": ["D", "E", "F"]
       }
     ],
     "help": "Some input help text."
@@ -103,6 +99,32 @@
   },
   {
     "$formkit": "select",
+    "label": "Select: with disabled options",
+    "help": "Some input help text.",
+    "disabled": true,
+    "options": [
+      {
+        "label": "Option 1",
+        "value": "option1"
+      },
+      {
+        "label": "Option 2",
+        "value": "option2",
+        "attrs": {
+          "disabled": true
+        }
+      },
+      {
+        "label": "Option 3",
+        "value": "option3",
+        "attrs": {
+          "disabled": true
+        }
+      }
+    ]
+  },
+  {
+    "$formkit": "select",
     "label": "Select: disabled",
     "help": "Some input help text.",
     "disabled": true,
@@ -138,6 +160,69 @@
       {
         "label": "Option 3",
         "value": "option3"
+      }
+    ]
+  },
+  {
+    "$formkit": "select",
+    "label": "Select: multiple with truncated value",
+    "help": "Some input help text.",
+    "multiple": true,
+    "options": [
+      {
+        "label": "Option 1 which is way too long and is going to get truncated by the UI",
+        "value": "option1"
+      },
+      {
+        "label": "Option 2",
+        "value": "option2"
+      },
+      {
+        "label": "Option 3",
+        "value": "option3"
+      }
+    ]
+  },
+  {
+    "$formkit": "select",
+    "label": "Select: multiple with option groups",
+    "value": "option1",
+    "multiple": true,
+    "options": [
+      {
+        "group": "The first group",
+        "options": ["A", "B", "C"]
+      },
+      {
+        "group": "The second group",
+        "options": ["D", "E", "F"]
+      }
+    ],
+    "help": "Some input help text."
+  },
+  {
+    "$formkit": "select",
+    "label": "Select: multiple with disabled options",
+    "help": "Some input help text.",
+    "multiple": true,
+    "options": [
+      {
+        "label": "Option 1",
+        "value": "option1"
+      },
+      {
+        "label": "Option 2",
+        "value": "option2",
+        "attrs": {
+          "disabled": true
+        }
+      },
+      {
+        "label": "Option 3",
+        "value": "option3",
+        "attrs": {
+          "disabled": true
+        }
       }
     ]
   },
