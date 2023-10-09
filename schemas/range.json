@@ -18,6 +18,17 @@
   },
   {
     "$formkit": "range",
+    "label": "Range: with error",
+    "value": 50,
+    "help": "Some input help text.",
+    "min": 0,
+    "max": 100,
+    "step": 1,
+    "validation": "min: 60",
+    "validation-visibility": "live"
+  },
+  {
+    "$formkit": "range",
     "label": "Range: with icons",
     "help": "Some input help text.",
     "prefixIcon": "sad",
