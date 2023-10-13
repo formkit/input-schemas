@@ -16,6 +16,15 @@
   },
   {
     "$formkit": "dropdown",
+    "label": "Dropdown: with overscroll behavior",
+    "placeholder": "Choose an option",
+    "behaviour": "overscroll",
+    "help": "Some input help text.",
+    "value": "Option 2",
+    "options": ["Option 1", "Option 2", "Option 3", "Option 4", "Option 5"]
+  },
+  {
+    "$formkit": "dropdown",
     "label": "Dropdown: with removable selection",
     "placeholder": "Choose an option",
     "help": "Some input help text.",
