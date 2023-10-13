@@ -57,7 +57,7 @@
     "placeholder": "Type something...",
     "help": "Some button help text.",
     "value": "foo",
-    "forceOpen": true,
+    "forceExpanded": true,
     "emptyMessage": "No results found.",
     "options": ["Option 1", "Option 2", "Option 3"]
   },
