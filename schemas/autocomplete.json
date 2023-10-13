@@ -28,7 +28,7 @@
     "label": "Autocomplete: multiple values",
     "placeholder": "Type something...",
     "help": "Some button help text.",
-    "value": "Option 2",
+    "value": ["Option 2"],
     "multiple": true,
     "options": ["Option 1", "Option 2", "Option 3"]
   },
@@ -57,7 +57,6 @@
     "placeholder": "Type something...",
     "help": "Some button help text.",
     "value": "foo",
-    "forceExpanded": true,
     "emptyMessage": "No results found.",
     "options": ["Option 1", "Option 2", "Option 3"]
   },
