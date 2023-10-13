@@ -3,14 +3,14 @@
     "$formkit": "autocomplete",
     "label": "Autocomplete",
     "placeholder": "Type something...",
-    "help": "Some button help text.",
+    "help": "Some input help text.",
     "options": ["Option 1", "Option 2", "Option 3"]
   },
   {
     "$formkit": "autocomplete",
     "label": "Autocomplete: with value",
     "placeholder": "Type something...",
-    "help": "Some button help text.",
+    "help": "Some input help text.",
     "value": "Option 2",
     "options": ["Option 1", "Option 2", "Option 3"]
   },
@@ -18,7 +18,7 @@
     "$formkit": "autocomplete",
     "label": "Autocomplete: with removable selection",
     "placeholder": "Type something...",
-    "help": "Some button help text.",
+    "help": "Some input help text.",
     "value": "Option 1",
     "selectionRemovable": true,
     "options": ["Option 1", "Option 2", "Option 3"]
@@ -27,7 +27,7 @@
     "$formkit": "autocomplete",
     "label": "Autocomplete: multiple values",
     "placeholder": "Type something...",
-    "help": "Some button help text.",
+    "help": "Some input help text.",
     "value": ["Option 2"],
     "multiple": true,
     "options": ["Option 1", "Option 2", "Option 3"]
@@ -36,7 +36,7 @@
     "$formkit": "autocomplete",
     "label": "Autocomplete: selection appearance option",
     "placeholder": "Type something...",
-    "help": "Some button help text.",
+    "help": "Some input help text.",
     "value": "Option 2",
     "selectionAppearance": "option",
     "options": ["Option 1", "Option 2", "Option 3"]
@@ -45,7 +45,7 @@
     "$formkit": "autocomplete",
     "label": "Autocomplete: selection appearance option (multiple)",
     "placeholder": "Type something...",
-    "help": "Some button help text.",
+    "help": "Some input help text.",
     "value": ["Option 1", "Option 2"],
     "multiple": true,
     "selectionAppearance": "option",
@@ -55,7 +55,7 @@
     "$formkit": "autocomplete",
     "label": "Autocomplete: with empty message",
     "placeholder": "Type something...",
-    "help": "Some button help text.",
+    "help": "Some input help text.",
     "value": "foo",
     "emptyMessage": "No results found.",
     "options": ["Option 1", "Option 2", "Option 3"]
@@ -64,6 +64,7 @@
     "$formkit": "autocomplete",
     "label": "Autocomplete: with icons",
     "placeholder": "Type something...",
+    "help": "Some input help text.",
     "prefixIcon": "star",
     "suffixIcon": "submit",
     "options": ["Option 1", "Option 2", "Option 3"]
@@ -72,12 +73,14 @@
     "$formkit": "autocomplete",
     "label": "Autocomplete: with no options",
     "placeholder": "Type something...",
+    "help": "Some input help text.",
     "options": []
   },
   {
     "$formkit": "autocomplete",
     "label": "Autocomplete: disabled",
     "placeholder": "Type something...",
+    "help": "Some input help text.",
     "options": ["Option 1", "Option 2", "Option 3"],
     "disabled": true
   }

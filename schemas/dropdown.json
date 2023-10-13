@@ -1,0 +1,85 @@
+[
+  {
+    "$formkit": "dropdown",
+    "label": "Dropdown",
+    "placeholder": "Choose an option",
+    "help": "Some input help text.",
+    "options": ["Option 1", "Option 2", "Option 3"]
+  },
+  {
+    "$formkit": "dropdown",
+    "label": "Dropdown: with value",
+    "placeholder": "Choose an option",
+    "help": "Some input help text.",
+    "value": "Option 2",
+    "options": ["Option 1", "Option 2", "Option 3"]
+  },
+  {
+    "$formkit": "dropdown",
+    "label": "Dropdown: with removable selection",
+    "placeholder": "Choose an option",
+    "help": "Some input help text.",
+    "value": "Option 1",
+    "selectionRemovable": true,
+    "options": ["Option 1", "Option 2", "Option 3"]
+  },
+  {
+    "$formkit": "dropdown",
+    "label": "Dropdown: multiple values",
+    "placeholder": "Choose an option",
+    "help": "Some input help text.",
+    "value": ["Option 2"],
+    "multiple": true,
+    "options": ["Option 1", "Option 2", "Option 3"]
+  },
+  {
+    "$formkit": "dropdown",
+    "label": "Dropdown: truncated values",
+    "placeholder": "Choose an option",
+    "help": "Some input help text.",
+    "value": ["Option 1 which is long", "Option 2 also long", "Option 3"],
+    "selectionAppearance": "option",
+    "options": ["Option 1 which is long", "Option 2 also long", "Option 3"]
+  },
+  {
+    "$formkit": "dropdown",
+    "label": "Dropdown: selection appearance tags",
+    "placeholder": "Choose an option",
+    "help": "Some input help text.",
+    "value": ["Option 1", "Option 2", "Option 3"],
+    "selectionAppearance": "tags",
+    "options": ["Option 1", "Option 2", "Option 3"]
+  },
+  {
+    "$formkit": "dropdown",
+    "label": "Dropdown: with icons",
+    "placeholder": "Choose an option",
+    "help": "Some input help text.",
+    "prefixIcon": "star",
+    "suffixIcon": "submit",
+    "options": ["Option 1", "Option 2", "Option 3"]
+  },
+  {
+    "$formkit": "dropdown",
+    "label": "Dropdown: with no options",
+    "placeholder": "Choose an option",
+    "help": "Some input help text.",
+    "options": []
+  },
+  {
+    "$formkit": "dropdown",
+    "label": "Dropdown: with no options and empty message",
+    "placeholder": "Choose an option",
+    "help": "Some input help text.",
+    "emptyMessage": "No options available",
+    "options": []
+  },
+  {
+    "$formkit": "dropdown",
+    "label": "Dropdown: disabled",
+    "placeholder": "Choose an option",
+    "help": "Some input help text.",
+    "options": ["Option 1", "Option 2", "Option 3"],
+    "disabled": true
+  }
+]
