@@ -71,6 +71,12 @@
   },
   {
     "$formkit": "autocomplete",
+    "label": "Autocomplete: with no options",
+    "placeholder": "Type something...",
+    "options": []
+  },
+  {
+    "$formkit": "autocomplete",
     "label": "Autocomplete: disabled",
     "placeholder": "Type something...",
     "options": ["Option 1", "Option 2", "Option 3"],
