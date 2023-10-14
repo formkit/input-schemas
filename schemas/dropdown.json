@@ -53,7 +53,6 @@
     "placeholder": "Choose an option",
     "help": "Some input help text.",
     "value": ["Option 1 which is long", "Option 2 also long", "Option 3"],
-    "selectionAppearance": "option",
     "multiple": true,
     "options": ["Option 1 which is long", "Option 2 also long", "Option 3"]
   },
