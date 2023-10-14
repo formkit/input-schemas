@@ -43,7 +43,7 @@
     "label": "Dropdown: multiple values",
     "placeholder": "Choose an option",
     "help": "Some input help text.",
-    "value": ["Option 2"],
+    "value": ["Option 1", "Option 2"],
     "multiple": true,
     "options": ["Option 1", "Option 2", "Option 3"]
   },
