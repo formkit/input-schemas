@@ -1,0 +1,41 @@
+[
+  {
+    "$formkit": "repeater",
+    "label": "Repeater",
+    "insertControl": true,
+    "children": [
+      {
+        "$formkit": "text",
+        "name": "email",
+        "label": "$: ($index + 1) + '. Email'",
+        "validation": "required|email"
+      },
+      {
+        "$formkit": "text",
+        "name": "email",
+        "label": "$: ($index + 1) + '. Email'",
+        "validation": "required|email"
+      }
+    ]
+  },
+  {
+    "$formkit": "repeater",
+    "label": "Repeater: disabled",
+    "disabled": true,
+    "insertControl": true,
+    "children": [
+      {
+        "$formkit": "text",
+        "name": "email",
+        "label": "$: ($index + 1) + '. Email'",
+        "validation": "required|email"
+      },
+      {
+        "$formkit": "text",
+        "name": "email",
+        "label": "$: ($index + 1) + '. Email'",
+        "validation": "required|email"
+      }
+    ]
+  }
+]

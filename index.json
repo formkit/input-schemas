@@ -22,5 +22,5 @@
     "url",
     "week"
   ],
-  "pro": ["autocomplete", "dropdown", "taglist"]
+  "pro": ["autocomplete", "dropdown", "repeater", "taglist"]
 }
