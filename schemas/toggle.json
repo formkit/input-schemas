@@ -1,14 +1,12 @@
 [
   {
-    "$formkit": "toggle"
-  },
-  {
     "$formkit": "toggle",
     "value": true
   },
   {
     "$formkit": "toggle",
-    "label": "Toggle: with label"
+    "label": "Toggle: with label",
+    "value": true
   },
   {
     "$formkit": "toggle",
@@ -27,7 +25,8 @@
     "label": "Toggle: with value labels inside",
     "offValueLabel": "Off",
     "onValueLabel": "On",
-    "valueLabelDisplay": "inner"
+    "valueLabelDisplay": "inner",
+    "value": true
   },
   {
     "$formkit": "toggle",
@@ -41,6 +40,7 @@
     "thumbIcon": "star",
     "thumbColorOn": "#4FCE5D",
     "trackColorOn": "#435A64",
-    "iconColorOn": "#FFFFFF"
+    "iconColorOn": "#FFFFFF",
+    "value": true
   }
 ]
