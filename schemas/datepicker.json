@@ -1,0 +1,38 @@
+[
+  {
+    "$formkit": "datepicker",
+    "label": "Datepicker",
+    "help": "Some input help text."
+  },
+  {
+    "$formkit": "datepicker",
+    "label": "Datepicker: with placeholder",
+    "placeholder": "Select a date",
+    "help": "Some input help text."
+  },
+  {
+    "$formkit": "datepicker",
+    "label": "Datepicker: with mask overlay",
+    "placeholder": "Select a date",
+    "help": "Some input help text.",
+    "overlay": true
+  },
+  {
+    "$formkit": "datepicker",
+    "label": "Datepicker: with disabled days",
+    "placeholder": "Select a date before 2017-01-15",
+    "help": "Some input help text.",
+    "maxDate": "2017-01-15",
+    "value": "2017-01-14T15:41:30.000Z",
+    "overlay": true
+  },
+  {
+    "$formkit": "datepicker",
+    "label": "Datepicker: with time entry",
+    "placeholder": "Select a day and time",
+    "format": { "date": "long", "time": "short" },
+    "valueFormat": ["time"],
+    "sequence": ["date", "time"],
+    "help": "Some input help text."
+  }
+]
