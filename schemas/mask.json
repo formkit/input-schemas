@@ -13,7 +13,7 @@
     "reverse": true,
     "showMask": false,
     "prefix": "$"
-  }
+  },
   {
     "$formkit": "mask",
     "label": "Mask: with overlay",
