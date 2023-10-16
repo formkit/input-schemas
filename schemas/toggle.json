@@ -4,6 +4,10 @@
   },
   {
     "$formkit": "toggle",
+    "value": true
+  },
+  {
+    "$formkit": "toggle",
     "label": "Toggle: with label"
   },
   {
@@ -15,7 +19,8 @@
     "$formkit": "toggle",
     "label": "Toggle: with value labels",
     "offValueLabel": "Off",
-    "onValueLabel": "On"
+    "onValueLabel": "On",
+    "value": true
   },
   {
     "$formkit": "toggle",
@@ -27,7 +32,8 @@
   {
     "$formkit": "toggle",
     "label": "Toggle: with icon",
-    "thumbIcon": "star"
+    "thumbIcon": "star",
+    "value": true
   },
   {
     "$formkit": "toggle",
