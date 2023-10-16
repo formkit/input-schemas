@@ -10,13 +10,11 @@
         "name": "email",
         "label": "$: ($index + 1) + '. Email'",
         "validation": "required|email"
-      },
-      {
-        "$formkit": "text",
-        "name": "email",
-        "label": "$: ($index + 1) + '. Email'",
-        "validation": "required|email"
       }
+    ],
+    "value": [
+      { "email": "andrew@formkit.com" },
+      { "email": "justin@formkit.com" }
     ]
   },
   {
@@ -31,13 +29,11 @@
         "name": "email",
         "label": "$: ($index + 1) + '. Email'",
         "validation": "required|email"
-      },
-      {
-        "$formkit": "text",
-        "name": "email",
-        "label": "$: ($index + 1) + '. Email'",
-        "validation": "required|email"
       }
+    ],
+    "value": [
+      { "email": "andrew@formkit.com" },
+      { "email": "justin@formkit.com" }
     ]
   }
 ]
