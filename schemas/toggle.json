@@ -1,0 +1,40 @@
+[
+  {
+    "$formkit": "toggle"
+  },
+  {
+    "$formkit": "toggle",
+    "label": "Toggle: with label"
+  },
+  {
+    "$formkit": "toggle",
+    "label": "Toggle: with alt label",
+    "altLabelPosition": true
+  },
+  {
+    "$formkit": "toggle",
+    "label": "Toggle: with value labels",
+    "offValueLabel": "Off",
+    "onValueLabel": "On"
+  },
+  {
+    "$formkit": "toggle",
+    "label": "Toggle: with value labels inside",
+    "offValueLabel": "Off",
+    "onValueLabel": "On",
+    "valueLabelDisplay": "inner"
+  },
+  {
+    "$formkit": "toggle",
+    "label": "Toggle: with icon",
+    "thumbIcon": "star"
+  },
+  {
+    "$formkit": "toggle",
+    "label": "Toggle: with color props",
+    "thumbIcon": "star",
+    "thumbColorOn": "#4FCE5D",
+    "trackColorOn": "#435A64",
+    "iconColorOn": "#FFFFFF"
+  }
+]
