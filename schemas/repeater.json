@@ -3,6 +3,7 @@
     "$formkit": "repeater",
     "label": "Repeater",
     "name": "Users",
+    "help": "Some input help text.",
     "insertControl": true,
     "children": [
       {
@@ -20,6 +21,7 @@
   {
     "$formkit": "repeater",
     "label": "Repeater: disabled",
+    "help": "Some input help text.",
     "name": "Users",
     "disabled": true,
     "insertControl": true,
