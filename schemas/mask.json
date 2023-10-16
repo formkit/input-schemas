@@ -1,0 +1,39 @@
+[
+  {
+    "$formkit": "mask",
+    "label": "Mask",
+    "mask": "+1 (###) ###-####",
+    "help": "Some input help text."
+  },
+  {
+    "$formkit": "mask",
+    "label": "Mask: with prefix & hidden mask",
+    "mask": "{#,##|repeat}#.##",
+    "help": "Some input help text.",
+    "reverse": true,
+    "showMask": false,
+    "prefix": "$"
+  }
+  {
+    "$formkit": "mask",
+    "label": "Mask: with overlay",
+    "mask": "+1 (###) ###-####",
+    "help": "Some input help text.",
+    "overlay": true
+  },
+  {
+    "$formkit": "mask",
+    "label": "Mask: invalid",
+    "mask": "+1 (###) ###-####",
+    "help": "Some input help text.",
+    "validation": "required",
+    "validationVisibility": "live"
+  },
+  {
+    "$formkit": "mask",
+    "label": "Mask: disabled",
+    "mask": "+1 (###) ###-####",
+    "help": "Some input help text.",
+    "disabled": true
+  }
+]

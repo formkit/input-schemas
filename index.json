@@ -26,6 +26,7 @@
     "autocomplete",
     "datepicker",
     "dropdown",
+    "mask",
     "repeater",
     "taglist",
     "toggle"
