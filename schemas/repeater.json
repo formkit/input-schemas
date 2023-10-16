@@ -30,8 +30,7 @@
       {
         "$formkit": "text",
         "name": "email",
-        "label": "$: ($index + 1) + '. Email'",
-        "validation": "required|email"
+        "label": "$: ($index + 1) + '. Email'"
       }
     ],
     "value": [{ "email": "andrew@formkit.com" }]
