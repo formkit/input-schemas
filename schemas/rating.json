@@ -10,14 +10,9 @@
   },
   {
     "$formkit": "rating",
-    "label": "Rating: with min/max",
-    "min": 1,
-    "max": 10
-  },
-  {
-    "$formkit": "rating",
     "label": "Rating: with half-step",
-    "value": "3.5"
+    "value": "3.5",
+    "step": "0.5"
   },
   {
     "$formkit": "rating",
