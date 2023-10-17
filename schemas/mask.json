@@ -7,6 +7,13 @@
   },
   {
     "$formkit": "mask",
+    "label": "Mask: with value",
+    "mask": "+1 (###) ###-####",
+    "value": "1234567890",
+    "help": "Some input help text."
+  },
+  {
+    "$formkit": "mask",
     "label": "Mask: with prefix & hidden mask",
     "mask": "{#,##|repeat}#.##",
     "help": "Some input help text.",
@@ -28,6 +35,14 @@
     "help": "Some input help text.",
     "validation": "required",
     "validationVisibility": "live"
+  },
+  {
+    "$formkit": "mask",
+    "label": "Mask: with icons",
+    "mask": "+1 (###) ###-####",
+    "help": "Some input help text.",
+    "prefixIcon": "telephone",
+    "suffixIcon": "submit"
   },
   {
     "$formkit": "mask",
