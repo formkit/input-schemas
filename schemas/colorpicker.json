@@ -1,1 +1,88 @@
-[]
+[
+  {
+    "$formkit": "colorpicker",
+    "label": "Colorpicker",
+    "help": "Some input help text.",
+    "value": "#DE1B1B"
+  },
+  {
+    "$formkit": "colorpicker",
+    "label": "Colorpicker",
+    "disabled": true,
+    "help": "Some input help text.",
+    "value": "#DE1B1B"
+  },
+  {
+    "$formkit": "colorpicker",
+    "label": "Colorpicker: Inline",
+    "help": "Some input help text.",
+    "value": "#68B9CD"
+  },
+  {
+    "$formkit": "colorpicker",
+    "label": "Colorpicker: Inline w/ disabled eyedropper",
+    "help": "Some input help text.",
+    "eyeDropper": false,
+    "value": "#AE40C9"
+  },
+  {
+    "$formkit": "colorpicker",
+    "label": "Colorpicker: Inline w/ swatches",
+    "help": "Some input help text.",
+    "value": "#50E3C2",
+    "options": [
+      "#000000",
+      "hsla(180, 100%, 0%, 0.5)",
+      "hsla(352, 98%, 41%, 1)",
+      "rgb(245, 166, 35)",
+      "hsl(55deg, 94%, 54.1%)",
+      "#8B572A",
+      "#7ED321",
+      "#417505",
+      "#B955CB",
+      "#9013FE",
+      "#4A90E2",
+      "#50E3C2",
+      "#B8E986",
+      "#4A4A4A",
+      "#9B9B9B",
+      "#FFFFFF",
+      "hsla(220, 30%, 100%, 0.5)",
+      "rgba(233,22,155,0.5)",
+      "hsla(50deg,85.5%,83.7%,0.5)"
+    ]
+  },
+  {
+    "$formkit": "colorpicker",
+    "label": "Colorpicker: Inline swatch-only",
+    "help": "Some input help text.",
+    "value": "#7ED321",
+    "options": [
+      "#000000",
+      "hsla(180, 100%, 0%, 0.5)",
+      "hsla(352, 98%, 41%, 1)",
+      "rgb(245, 166, 35)",
+      "hsl(55deg, 94%, 54.1%)",
+      "#8B572A",
+      "#7ED321",
+      "#417505",
+      "#B955CB",
+      "#9013FE",
+      "#4A90E2",
+      "#50E3C2",
+      "#B8E986",
+      "#4A4A4A",
+      "#9B9B9B",
+      "#FFFFFF",
+      "hsla(220, 30%, 100%, 0.5)",
+      "rgba(233,22,155,0.5)",
+      "hsla(50deg,85.5%,83.7%,0.5)"
+    ]
+  },
+  {
+    "$formkit": "colorpicker",
+    "label": "Colorpicker: Inline disabled",
+    "help": "Some input help text.",
+    "value": "#9013FE"
+  }
+]
