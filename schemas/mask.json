@@ -9,7 +9,7 @@
     "$formkit": "mask",
     "label": "Mask: with value",
     "mask": "+1 (###) ###-####",
-    "value": "1234567890",
+    "value": "12345678900",
     "help": "Some input help text."
   },
   {

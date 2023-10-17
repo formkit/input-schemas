@@ -24,11 +24,15 @@
   ],
   "pro": [
     "autocomplete",
+    "colorpicker",
     "datepicker",
     "dropdown",
     "mask",
+    "rating",
     "repeater",
+    "slider",
     "taglist",
-    "toggle"
+    "toggle",
+    "transferlist"
   ]
 }
