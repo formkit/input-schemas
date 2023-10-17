@@ -46,6 +46,7 @@
   {
     "$formkit": "transferlist",
     "label": "Transfer List: with search",
+    "placeholder": "Search...",
     "help": "Some input help text.",
     "sourceLabel": "Source",
     "targetLabel": "Target",
