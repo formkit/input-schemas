@@ -2,11 +2,6 @@
   {
     "$formkit": "transferlist",
     "label": "Transfer List",
-    "help": "Some input help text."
-  },
-  {
-    "$formkit": "transferlist",
-    "label": "Transfer List: with UI labels",
     "help": "Some input help text.",
     "sourceLabel": "Source",
     "targetLabel": "Target",
