@@ -143,6 +143,7 @@
     "$formkit": "colorpicker",
     "label": "Colorpicker: Inline disabled",
     "inline": true,
+    "disabled": true,
     "help": "Some input help text.",
     "value": "#9013FE"
   }
