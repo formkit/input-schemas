@@ -77,7 +77,6 @@
     "$formkit": "slider",
     "label": "Slider: with chart",
     "value": 30,
-    "step": 10,
     "chart": [
       { "at": 0, "value": 10 },
       { "at": 10, "value": 15 },
