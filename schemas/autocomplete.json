@@ -8,6 +8,15 @@
   },
   {
     "$formkit": "autocomplete",
+    "label": "Autocomplete: invalid",
+    "placeholder": "Type something...",
+    "help": "Some input help text.",
+    "options": ["Option 1", "Option 2", "Option 3"],
+    "validation": "required",
+    "validationVisibility": "live"
+  },
+  {
+    "$formkit": "autocomplete",
     "label": "Autocomplete: with value",
     "placeholder": "Type something...",
     "help": "Some input help text.",
