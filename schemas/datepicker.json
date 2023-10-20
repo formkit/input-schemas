@@ -32,7 +32,7 @@
     "placeholder": "Select a day and time",
     "format": { "date": "long", "time": "short" },
     "valueFormat": ["time"],
-    "sequence": ["date", "time"],
+    "sequence": ["time", "day"],
     "help": "Some input help text."
   }
 ]
