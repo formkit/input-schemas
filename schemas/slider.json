@@ -83,6 +83,13 @@
   },
   {
     "$formkit": "slider",
+    "disabled": true,
+    "label": "Slider: disabled",
+    "help": "Some input help text.",
+    "value": 50
+  },
+  {
+    "$formkit": "slider",
     "label": "Slider: with chart",
     "value": 30,
     "chart": [
@@ -529,13 +536,6 @@
         "value": 277.0635650829712
       }
     ]
-  },
-  {
-    "$formkit": "slider",
-    "disabled": true,
-    "label": "Slider: disabled",
-    "help": "Some input help text.",
-    "value": 50
   },
   {
     "$formkit": "slider",
