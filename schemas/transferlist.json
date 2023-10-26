@@ -10,6 +10,20 @@
   },
   {
     "$formkit": "transferlist",
+    "label": "Transfer List: loading",
+    "help": "Some input help text.",
+    "loadOnCreated": true,
+    "options": "$asyncLoader"
+  },
+  {
+    "$formkit": "transferlist",
+    "label": "Transfer List: paginated",
+    "help": "Some input help text.",
+    "loadOnCreated": true,
+    "options": "$paginatedLoader"
+  },
+  {
+    "$formkit": "transferlist",
     "label": "Transfer List: with values",
     "help": "Some input help text.",
     "sourceLabel": "Source",

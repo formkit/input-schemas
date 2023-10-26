@@ -14,6 +14,20 @@
   },
   {
     "$formkit": "dropdown",
+    "label": "Dropdown: loading",
+    "help": "Some input help text.",
+    "loadOnCreated": true,
+    "options": "$asyncLoader"
+  },
+  {
+    "$formkit": "dropdown",
+    "label": "Dropdown: paginated",
+    "help": "Some input help text.",
+    "loadOnCreated": true,
+    "options": "$paginatedLoader"
+  },
+  {
+    "$formkit": "dropdown",
     "label": "Dropdown: with value",
     "placeholder": "Choose an option",
     "help": "Some input help text.",

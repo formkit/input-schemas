@@ -8,12 +8,17 @@
   },
   {
     "$formkit": "autocomplete",
-    "label": "Autocomplete: invalid",
-    "placeholder": "Type something...",
+    "label": "Autocomplete: loading",
     "help": "Some input help text.",
-    "options": ["Option 1", "Option 2", "Option 3"],
-    "validation": "required",
-    "validationVisibility": "live"
+    "loadOnCreated": true,
+    "options": "$asyncLoader"
+  },
+  {
+    "$formkit": "autocomplete",
+    "label": "Autocomplete: paginated",
+    "help": "Some input help text.",
+    "loadOnCreated": true,
+    "options": "$paginatedLoader"
   },
   {
     "$formkit": "autocomplete",
@@ -22,6 +27,15 @@
     "help": "Some input help text.",
     "value": "Option 2",
     "options": ["Option 1", "Option 2", "Option 3"]
+  },
+  {
+    "$formkit": "autocomplete",
+    "label": "Autocomplete: invalid",
+    "placeholder": "Type something...",
+    "help": "Some input help text.",
+    "options": ["Option 1", "Option 2", "Option 3"],
+    "validation": "required",
+    "validationVisibility": "live"
   },
   {
     "$formkit": "autocomplete",
