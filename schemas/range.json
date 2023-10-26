@@ -10,7 +10,7 @@
   {
     "$formkit": "range",
     "label": "Range: with value",
-    "value": 50,
+    "value": 75,
     "help": "Some input help text.",
     "min": 0,
     "max": 100,
