@@ -1,7 +1,7 @@
 [
   {
     "$formkit": "submit",
-    "label": "Submit:"
+    "label": "Submit"
   },
   {
     "$formkit": "submit",
