@@ -1,19 +1,19 @@
 [
   {
-    "$el": "h1",
-    "children": "Job Application Form"
-  },
-  {
-    "$el": "p",
-    "children": "Please fill out this form to apply for a job with us. We appreciate your interest in our company."
-  },
-  {
     "$formkit": "form",
     "submitLabel": "Submit Application",
     "submitAttrs": {
       "suffixIcon": "submit"
     },
     "children": [
+      {
+        "$el": "h1",
+        "children": "Job Application Form"
+      },
+      {
+        "$el": "p",
+        "children": "Please fill out this form to apply for a job with us. We appreciate your interest in our company."
+      },
       {
         "$el": "div",
         "attrs": {

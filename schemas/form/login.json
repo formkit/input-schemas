@@ -1,14 +1,15 @@
 [
   {
-    "$el": "h1",
-    "children": "Login Form",
+    "$formkit": "form",
+    "submitLabel": "Login",
     "submitAttrs": {
       "suffixIcon": "submit"
-    }
-  },
-  {
-    "$formkit": "form",
+    },
     "children": [
+      {
+        "$el": "h1",
+        "children": "Login Form"
+      },
       {
         "$formkit": "text",
         "label": "Username",

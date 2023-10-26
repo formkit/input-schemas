@@ -1,15 +1,15 @@
 [
   {
-    "$el": "h1",
-    "children": "T-Shirt Customization Form"
-  },
-  {
-    "$el": "p",
-    "children": "Please customize your t-shirt using the options below."
-  },
-  {
     "$formkit": "form",
     "children": [
+      {
+        "$el": "h1",
+        "children": "T-Shirt Customization Form"
+      },
+      {
+        "$el": "p",
+        "children": "Please customize your t-shirt using the options below."
+      },
       {
         "$formkit": "text",
         "label": "Name",
