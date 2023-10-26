@@ -1,0 +1,75 @@
+[
+  {
+    "$el": "h1",
+    "children": "T-Shirt Customization Form"
+  },
+  {
+    "$el": "p",
+    "children": "Please customize your t-shirt using the options below."
+  },
+  {
+    "$formkit": "form",
+    "children": [
+      {
+        "$formkit": "text",
+        "label": "Name",
+        "name": "name",
+        "value": "Andrew Boyd",
+        "placeholder": "Enter your name"
+      },
+      {
+        "$formkit": "select",
+        "label": "T-Shirt Size",
+        "name": "tshirtSize",
+        "options": ["XS", "Small", "Medium", "Large", "XL", "2XL", "3XL"]
+      },
+      {
+        "$formkit": "colorpicker",
+        "inline": true,
+        "label": "T-Shirt Color",
+        "name": "tshirtColor",
+        "panelControls": false,
+        "panelFormat": false,
+        "value": "hsla(352, 98%, 41%, 1)",
+        "options": [
+          "hsla(352, 98%, 41%, 1)",
+          "rgb(245, 166, 35)",
+          "hsl(55deg, 94%, 54.1%)",
+          "#8B572A",
+          "#7ED321",
+          "#BD10E0"
+        ]
+      },
+      {
+        "$formkit": "checkbox",
+        "label": "What add-ons would you like?",
+        "value": ["monogram"],
+        "options": [
+          {
+            "value": "pocket",
+            "label": "Pocket"
+          },
+          {
+            "value": "monogram",
+            "label": "Monogram",
+            "help": "Include your initials in the notes section."
+          },
+          {
+            "value": "giftwrap",
+            "label": "Gift Wrap",
+            "help": "Currently unavailable. 😢",
+            "attrs": {
+              "disabled": true
+            }
+          }
+        ]
+      },
+      {
+        "$formkit": "textarea",
+        "label": "Additional Notes",
+        "name": "notes",
+        "placeholder": "Enter any additional notes or specifications here."
+      }
+    ]
+  }
+]

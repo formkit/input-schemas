@@ -34,5 +34,20 @@
     "valueFormat": ["time"],
     "sequence": ["time", "day"],
     "help": "Some input help text."
+  },
+  {
+    "$formkit": "datepicker",
+    "label": "Datepicker: invalid",
+    "placeholder": "Select a date",
+    "help": "Some input help text.",
+    "validation": "required",
+    "validationVisibility": "live"
+  },
+  {
+    "$formkit": "datepicker",
+    "label": "Datepicker: disabled",
+    "disabled": true,
+    "placeholder": "Select a date",
+    "help": "Some input help text."
   }
 ]

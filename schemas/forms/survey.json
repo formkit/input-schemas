@@ -1,0 +1,100 @@
+[
+  {
+    "$formkit": "form",
+    "onSubmit": "$handleSubmit",
+    "submitAttrs": {
+      "suffixIcon": "submit"
+    },
+    "children": [
+      {
+        "$el": "h1",
+        "children": "Developer Survey"
+      },
+      {
+        "$el": "p",
+        "children": "Please fill out this survey to help us better understand your needs as a developer."
+      },
+      {
+        "$formkit": "radio",
+        "label": "Which front-end framework do you use most?",
+        "name": "framework",
+        "validation": "required",
+        "value": "vue",
+        "options": [
+          { "label": "Svelte", "value": "svelte" },
+          { "label": "React", "value": "react" },
+          { "label": "Vue", "value": "vue" },
+          { "label": "Solid", "value": "solid" }
+        ]
+      },
+      {
+        "$formkit": "radio",
+        "label": "How much of your development time is spent working on forms?",
+        "name": "timeSpent",
+        "validation": "required",
+        "value": "50",
+        "options": [
+          { "label": "Less than 10%", "value": "10" },
+          { "label": "About 25%", "value": "25" },
+          { "label": "About 50%", "value": "50" },
+          { "label": "About 75%", "value": "75" },
+          { "label": "All of it", "value": "100" }
+        ]
+      },
+      {
+        "$formkit": "slider",
+        "label": "On a scale of 1 - 10 how happy are you with your current form development tooling?",
+        "name": "happiness",
+        "value": "5",
+        "min": 1,
+        "max": 10,
+        "marks": true,
+        "prefixIcon": "sad",
+        "suffixIcon": "happy"
+      },
+      {
+        "$formkit": "checkbox",
+        "label": "What are your biggest pain points when building forms?",
+        "name": "painPoints",
+        "validation": "required",
+        "value": ["validation", "styling"],
+        "options": [
+          { "label": "Boilerplate code", "value": "boilerplate" },
+          { "label": "Validation", "value": "validation" },
+          { "label": "Form state", "value": "formState" },
+          { "label": "Accessibility", "value": "accessibility" },
+          { "label": "Styling", "value": "styling" },
+          { "label": "Internationalization", "value": "internationalization" }
+        ]
+      },
+      {
+        "$formkit": "taglist",
+        "label": "What backend(s) do you use for handling form submissions?",
+        "list": "frameworks",
+        "name": "backend",
+        "validation": "required",
+        "value": ["Laravel", "Express"],
+        "options": [
+          "Laravel",
+          "Django",
+          "Express",
+          "Koa",
+          "Spring",
+          "ASP.NET",
+          "Rails",
+          "Flask",
+          "Struts",
+          "Hybernate"
+        ],
+        "help": "Please specify the backend technology or platform that accepts your form submissions."
+      },
+      {
+        "$formkit": "email",
+        "label": "Enter your email address",
+        "name": "email",
+        "value": "andrew@formkit.com",
+        "validation": "required|email"
+      }
+    ]
+  }
+]

@@ -164,6 +164,28 @@
   },
   {
     "$formkit": "select",
+    "label": "Select: multiple invalid",
+    "help": "Some input help text.",
+    "validation": "required",
+    "validationVisibility": "live",
+    "multiple": true,
+    "options": [
+      {
+        "label": "Option 1",
+        "value": "option1"
+      },
+      {
+        "label": "Option 2",
+        "value": "option2"
+      },
+      {
+        "label": "Option 3",
+        "value": "option3"
+      }
+    ]
+  },
+  {
+    "$formkit": "select",
     "label": "Select: multiple with truncated value",
     "help": "Some input help text.",
     "multiple": true,

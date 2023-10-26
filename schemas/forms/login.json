@@ -1,0 +1,36 @@
+[
+  {
+    "$el": "h1",
+    "children": "Login Form",
+    "submitAttrs": {
+      "suffixIcon": "submit"
+    }
+  },
+  {
+    "$formkit": "form",
+    "children": [
+      {
+        "$formkit": "text",
+        "key": "usernamekey",
+        "label": "Username",
+        "name": "username",
+        "validation": "required",
+        "placeholder": "Enter your username"
+      },
+      {
+        "$formkit": "password",
+        "key": "passwordkey",
+        "label": "Password",
+        "name": "password",
+        "validation": "required",
+        "placeholder": "Enter your password"
+      },
+      {
+        "$formkit": "toggle",
+        "key": "remembermekey",
+        "label": "Remember Me",
+        "name": "rememberme"
+      }
+    ]
+  }
+]

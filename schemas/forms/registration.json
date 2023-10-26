@@ -1,0 +1,137 @@
+[
+  {
+    "$formkit": "form",
+    "submitLabel": "Proceed to checkout",
+    "submitAttrs": {
+      "prefixIcon": "dollar",
+      "suffixIcon": "submit"
+    },
+    "children": [
+      {
+        "$el": "h1",
+        "children": "Register"
+      },
+      {
+        "$el": "p",
+        "children": "Get your tickets for FormConf! The only conference that is all about forms. Hear from industry experts about form stuff then go enjoy nice food and drink on the town."
+      },
+      {
+        "$formkit": "repeater",
+        "label": "Attendees",
+        "help": "Please register as many tickets as you need for your team.",
+        "addLabel": "Add attendee",
+        "addAttrs": {
+          "prefixIcon": "add"
+        },
+        "children": [
+          {
+            "$el": "div",
+            "attrs": {
+              "class": "double"
+            },
+            "children": [
+              {
+                "$formkit": "text",
+                "name": "name",
+                "prefixIcon": "avatarMan",
+                "label": "$: ($index + 1) + \". Full Name\"",
+                "validationLabel": "Name",
+                "help": "Please enter attendee's full name.",
+                "validation": "required"
+              },
+              {
+                "$formkit": "email",
+                "name": "email",
+                "validationLabel": "Email",
+                "prefixIcon": "email",
+                "label": "$: ($index + 1) + \". Email Address\"",
+                "help": "The ticket will be sent to this address.",
+                "validation": "required|email"
+              }
+            ]
+          },
+          {
+            "$formkit": "radio",
+            "value": "2",
+            "label": "Choose your ticket",
+            "validation": "required",
+            "validationLabel": "Ticket",
+            "help": "Don't be afraid to invest in yourself",
+            "options": [
+              {
+                "label": "Quartz: $0",
+                "value": "1",
+                "help": "Watch remotely and miss out on all the fun."
+              },
+              {
+                "label": "Bronze: $299",
+                "value": "2",
+                "help": "Nose-bleed seats but at least you're attending in person."
+              },
+              {
+                "label": "Silver: $399",
+                "value": "3",
+                "help": "The every-day conference experience."
+              },
+              {
+                "label": "Gold: $599",
+                "value": "4",
+                "help": "SOLD OUT: VIP seating, personalized swag, and complimentary food and drink.",
+                "attrs": {
+                  "disabled": true
+                }
+              },
+              {
+                "label": "Platinum: $20,000",
+                "value": "5",
+                "help": "You get to be a speaker. 🤫"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$formkit": "taglist",
+        "label": "Which tracks are you and your team most interested in?",
+        "validationLabel": "track",
+        "validationMessages": {
+          "min": "You must select at least 1 track"
+        },
+        "prefixIcon": "tag",
+        "validation": "+min:1",
+        "placeholder": "Please select an option",
+        "options": [
+          "Forms",
+          "Form Architecture",
+          "Form Design",
+          "Styling Forms",
+          "Tailwind Forms",
+          "Validating Forms",
+          "Forms and Me",
+          "Inclusive Forms",
+          "Is FormKit a UI Library?",
+          "Forms at scale"
+        ]
+      },
+      {
+        "$formkit": "dropdown",
+        "label": "How did you hear about FormConf?",
+        "placeholder": "Be honest",
+        "behavior": "overscroll",
+        "options": [
+          "Podcast advertising",
+          "Saw the banner on the side of a bus",
+          "A friend told me",
+          "I'm not sure how I got here",
+          "Other"
+        ]
+      },
+      {
+        "$formkit": "textarea",
+        "label": "Special instructions / comments",
+        "placeholder": "Let us know if you need anything!",
+        "help": "FormConf aspires to provide a welcoming environment for all."
+      }
+    ]
+  }
+]

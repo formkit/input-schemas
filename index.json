@@ -34,5 +34,6 @@
     "taglist",
     "toggle",
     "transferlist"
-  ]
+  ],
+  "forms": ["login", "tshirt", "survey", "registration", "application"]
 }

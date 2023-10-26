@@ -22,6 +22,15 @@
   },
   {
     "$formkit": "taglist",
+    "label": "Taglist: invalid",
+    "placeholder": "Choose an option",
+    "help": "Some input help text.",
+    "validation": "required",
+    "validationVisibility": "live",
+    "options": ["Option 1", "Option 2", "Option 3"]
+  },
+  {
+    "$formkit": "taglist",
     "label": "Taglist: multiple values",
     "placeholder": "Choose an option",
     "help": "Some input help text.",

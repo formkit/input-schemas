@@ -1,0 +1,172 @@
+[
+  {
+    "$el": "h1",
+    "children": "Job Application Form"
+  },
+  {
+    "$el": "p",
+    "children": "Please fill out this form to apply for a job with us. We appreciate your interest in our company."
+  },
+  {
+    "$formkit": "form",
+    "submitLabel": "Submit Application",
+    "submitAttrs": {
+      "suffixIcon": "submit"
+    },
+    "children": [
+      {
+        "$el": "div",
+        "attrs": {
+          "class": "double"
+        },
+        "children": [
+          {
+            "$formkit": "text",
+            "label": "First Name",
+            "placeholder": "Enter your first name",
+            "name": "firstname",
+            "validation": "required"
+          },
+          {
+            "$formkit": "text",
+            "label": "Last Name",
+            "placeholder": "Enter your last name",
+            "name": "lastname",
+            "validation": "required"
+          }
+        ]
+      },
+      {
+        "$el": "div",
+        "attrs": {
+          "class": "double"
+        },
+        "children": [
+          {
+            "$formkit": "email",
+            "label": "Email Address",
+            "placeholder": "Enter your email address",
+            "name": "email",
+            "validation": "required|email"
+          },
+          {
+            "$formkit": "mask",
+            "mask": "+1 (###) ###-####",
+            "label": "Phone Number",
+            "name": "phone",
+            "validation": "required"
+          }
+        ]
+      },
+      {
+        "$el": "div",
+        "attrs": {
+          "class": "double"
+        },
+        "children": [
+          {
+            "$formkit": "dropdown",
+            "label": "Job Type",
+            "name": "jobType",
+            "value": "part_time",
+            "options": [
+              { "label": "Internship", "value": "internship" },
+              { "label": "Part Time", "value": "part_time" },
+              { "label": "Full Time", "value": "full_time" }
+            ],
+            "validation": "required"
+          },
+          {
+            "$formkit": "text",
+            "label": "Desired Position",
+            "placeholder": "Enter your desired position",
+            "name": "desiredPosition",
+            "validation": "required"
+          }
+        ]
+      },
+      {
+        "$el": "div",
+        "attrs": {
+          "class": "triple"
+        },
+        "children": [
+          {
+            "$formkit": "text",
+            "label": "University",
+            "name": "university",
+            "validation": "required"
+          },
+          {
+            "$formkit": "text",
+            "label": "Degree",
+            "name": "degree",
+            "validation": "required"
+          },
+          {
+            "$formkit": "text",
+            "label": "Major",
+            "name": "major",
+            "validation": "required"
+          }
+        ]
+      },
+      {
+        "$formkit": "textarea",
+        "help": "Please enter a brief cover letter about why you want to work for FormCorp.",
+        "label": "Cover Letter",
+        "name": "coverLetter",
+        "validation": "required"
+      },
+      {
+        "$el": "div",
+        "if": "$value.jobType === 'full_time' || $value.jobType === 'part_time'",
+        "attrs": {
+          "class": "double"
+        },
+        "children": [
+          {
+            "$formkit": "text",
+            "if": "$value.jobType === 'full_time' || $value.jobType === 'part_time'",
+            "label": "Previous Company",
+            "name": "previousCompany"
+          },
+          {
+            "$formkit": "text",
+            "if": "$value.jobType === 'full_time' || $value.jobType === 'part_time'",
+            "label": "Previous Position",
+            "name": "previousPosition"
+          }
+        ]
+      },
+      {
+        "$el": "div",
+        "if": "$value.jobType === 'full_time' || $value.jobType === 'part_time'",
+        "attrs": {
+          "class": "double"
+        },
+        "children": [
+          {
+            "$formkit": "datepicker",
+            "if": "$value.jobType === 'full_time' || $value.jobType === 'part_time'",
+            "label": "Start Date",
+            "name": "startDate"
+          },
+          {
+            "$formkit": "datepicker",
+            "if": "$value.jobType === 'full_time' || $value.jobType === 'part_time'",
+            "label": "End Date",
+            "name": "endDate"
+          }
+        ]
+      },
+      {
+        "$formkit": "textarea",
+        "if": "$value.jobType === 'full_time' || $value.jobType === 'full_time' || $value.jobType === 'part_time'",
+        "label": "Job Description",
+        "help": "Please enter a brief description of your responsibilities.",
+        "name": "jobDescription"
+      }
+    ]
+  }
+]

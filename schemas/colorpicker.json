@@ -14,14 +14,37 @@
   },
   {
     "$formkit": "colorpicker",
-    "label": "Colorpicker: Inline",
+    "label": "Colorpicker: invalid",
+    "help": "Some input help text.",
+    "value": "#DE1B1B",
+    "validation": "is:#000000",
+    "validationVisibility": "live",
+    "validationMessages": {
+      "is": "Color must be #000000"
+    }
+  },
+  {
+    "$formkit": "colorpicker",
+    "label": "Colorpicker: inline",
     "inline": true,
     "help": "Some input help text.",
     "value": "#68B9CD"
   },
   {
     "$formkit": "colorpicker",
-    "label": "Colorpicker: Inline w/ disabled eyedropper",
+    "label": "Colorpicker: inline invalid",
+    "inline": true,
+    "help": "Some input help text.",
+    "value": "#DE1B1B",
+    "validation": "is:#000000",
+    "validationVisibility": "live",
+    "validationMessages": {
+      "is": "Color must be #000000"
+    }
+  },
+  {
+    "$formkit": "colorpicker",
+    "label": "Colorpicker: inline w/ disabled eyedropper",
     "help": "Some input help text.",
     "inline": true,
     "eyeDropper": false,
@@ -29,7 +52,7 @@
   },
   {
     "$formkit": "colorpicker",
-    "label": "Colorpicker: Inline w/ swatches",
+    "label": "Colorpicker: inline w/ swatches",
     "inline": true,
     "help": "Some input help text.",
     "value": "#50E3C2",
@@ -57,7 +80,7 @@
   },
   {
     "$formkit": "colorpicker",
-    "label": "Colorpicker: Inline w/ grouped swatches",
+    "label": "Colorpicker: inline w/ grouped swatches",
     "inline": true,
     "help": "Some input help text.",
     "value": "#50E3C2",
@@ -111,7 +134,7 @@
   },
   {
     "$formkit": "colorpicker",
-    "label": "Colorpicker: Inline swatch-only",
+    "label": "Colorpicker: inline swatch-only",
     "inline": true,
     "help": "Some input help text.",
     "value": "#7ED321",
@@ -141,7 +164,7 @@
   },
   {
     "$formkit": "colorpicker",
-    "label": "Colorpicker: Inline disabled",
+    "label": "Colorpicker: inline disabled",
     "inline": true,
     "disabled": true,
     "help": "Some input help text.",

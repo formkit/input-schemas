@@ -27,6 +27,14 @@
   },
   {
     "$formkit": "slider",
+    "label": "Slider: with icons",
+    "value": 50,
+    "prefixIcon": "sad",
+    "suffixIcon": "happy",
+    "help": "Some input help text."
+  },
+  {
+    "$formkit": "slider",
     "label": "Slider: with linked input",
     "help": "Some input help text.",
     "value": 33,
