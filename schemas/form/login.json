@@ -11,7 +11,6 @@
     "children": [
       {
         "$formkit": "text",
-        "key": "usernamekey",
         "label": "Username",
         "name": "username",
         "validation": "required",
@@ -19,15 +18,13 @@
       },
       {
         "$formkit": "password",
-        "key": "passwordkey",
         "label": "Password",
         "name": "password",
         "validation": "required",
         "placeholder": "Enter your password"
       },
       {
-        "$formkit": "toggle",
-        "key": "remembermekey",
+        "$formkit": "checkbox",
         "label": "Remember Me",
         "name": "rememberme"
       }
