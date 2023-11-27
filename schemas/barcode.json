@@ -1,0 +1,39 @@
+[
+  {
+    "$formkit": "barcode",
+    "label": "Barcode",
+    "help": "Some input help text."
+  },
+  {
+    "$formkit": "barcode",
+    "label": "Barcode: with placeholder",
+    "placeholder": "Placeholder text",
+    "help": "Some input help text."
+  },
+  {
+    "$formkit": "barcode",
+    "label": "Barcode: with value",
+    "value": "377340003030",
+    "help": "Some input help text."
+  },
+  {
+    "$formkit": "barcode",
+    "label": "Barcode: invalid",
+    "help": "Some input help text.",
+    "validation": "required",
+    "validationVisibility": "live"
+  },
+  {
+    "$formkit": "barcode",
+    "label": "Barcode: with icons",
+    "help": "Some input help text.",
+    "prefixIcon": "search",
+    "suffixIcon": "star"
+  },
+  {
+    "$formkit": "barcode",
+    "label": "Barcode: disabled",
+    "help": "Some input help text.",
+    "disabled": true
+  }
+]

@@ -35,5 +35,6 @@
     "toggle",
     "transferlist"
   ],
+  "addons": ["barcode", "multi-step"],
   "forms": ["login", "tshirt", "survey", "registration", "application"]
 }
