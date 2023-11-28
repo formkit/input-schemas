@@ -1,1 +1,282 @@
-[{}]
+[
+  {
+    "$formkit": "multi-step",
+    "tabStyle": "tab",
+    "children": [
+      {
+        "$formkit": "step",
+        "name": "personalInfo",
+        "children": [
+          {
+            "$formkit": "text",
+            "label": "Name",
+            "prefixIcon": "avatarMan",
+            "value": "Andrew Boyd",
+            "validation": "required"
+          },
+          {
+            "$formkit": "email",
+            "label": "Email",
+            "prefixIcon": "email",
+            "value": "andrew@formkit.com",
+            "required": "required|email"
+          },
+          {
+            "$formkit": "mask",
+            "label": "Phone",
+            "mask": "(###) ###-####",
+            "value": "1234567890",
+            "validation": "required",
+            "prefixIcon": "telephone"
+          }
+        ]
+      },
+      {
+        "$formkit": "step",
+        "name": "references",
+        "children": [
+          {
+            "$formkit": "textarea",
+            "label": "Please supply contact information for 2 references",
+            "validation": "required"
+          }
+        ]
+      },
+      {
+        "$formkit": "step",
+        "name": "supplemental",
+        "children": [
+          {
+            "$formkit": "textarea",
+            "label": "Why do you want to work here?",
+            "validation": "required"
+          },
+          {
+            "$formkit": "radio",
+            "label": "How did you hear about us?",
+            "validation": "required",
+            "options": [
+              {
+                "label": "Google",
+                "value": "google"
+              },
+              {
+                "label": "Facebook",
+                "value": "facebook"
+              },
+              {
+                "label": "Twitter",
+                "value": "twitter"
+              },
+              {
+                "label": "Friend",
+                "value": "friend"
+              },
+              {
+                "label": "Other",
+                "value": "other"
+              }
+            ]
+          }
+        ],
+        "sectionsSchema": {
+          "stepNext": {
+            "children": [
+              {
+                "$formkit": "submit",
+                "outerClass": "ml-auto"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "$formkit": "multi-step",
+    "tabStyle": "progress",
+    "children": [
+      {
+        "$formkit": "step",
+        "name": "personalInfo",
+        "children": [
+          {
+            "$formkit": "text",
+            "label": "Name",
+            "prefixIcon": "avatarMan",
+            "value": "Andrew Boyd",
+            "validation": "required"
+          },
+          {
+            "$formkit": "email",
+            "label": "Email",
+            "prefixIcon": "email",
+            "value": "andrew@formkit.com",
+            "required": "required|email"
+          },
+          {
+            "$formkit": "mask",
+            "label": "Phone",
+            "mask": "(###) ###-####",
+            "value": "1234567890",
+            "validation": "required",
+            "prefixIcon": "telephone"
+          }
+        ]
+      },
+      {
+        "$formkit": "step",
+        "name": "references",
+        "children": [
+          {
+            "$formkit": "textarea",
+            "label": "Please supply contact information for 2 references",
+            "validation": "required"
+          }
+        ]
+      },
+      {
+        "$formkit": "step",
+        "name": "supplemental",
+        "children": [
+          {
+            "$formkit": "textarea",
+            "label": "Why do you want to work here?",
+            "validation": "required"
+          },
+          {
+            "$formkit": "radio",
+            "label": "How did you hear about us?",
+            "validation": "required",
+            "options": [
+              {
+                "label": "Google",
+                "value": "google"
+              },
+              {
+                "label": "Facebook",
+                "value": "facebook"
+              },
+              {
+                "label": "Twitter",
+                "value": "twitter"
+              },
+              {
+                "label": "Friend",
+                "value": "friend"
+              },
+              {
+                "label": "Other",
+                "value": "other"
+              }
+            ]
+          }
+        ],
+        "sectionsSchema": {
+          "stepNext": {
+            "children": [
+              {
+                "$formkit": "submit",
+                "outerClass": "ml-auto"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "$formkit": "multi-step",
+    "tabStyle": "progress",
+    "hideProgressLabels": true,
+    "children": [
+      {
+        "$formkit": "step",
+        "name": "personalInfo",
+        "children": [
+          {
+            "$formkit": "text",
+            "label": "Name",
+            "prefixIcon": "avatarMan",
+            "value": "Andrew Boyd",
+            "validation": "required"
+          },
+          {
+            "$formkit": "email",
+            "label": "Email",
+            "prefixIcon": "email",
+            "value": "andrew@formkit.com",
+            "required": "required|email"
+          },
+          {
+            "$formkit": "mask",
+            "label": "Phone",
+            "mask": "(###) ###-####",
+            "value": "1234567890",
+            "validation": "required",
+            "prefixIcon": "telephone"
+          }
+        ]
+      },
+      {
+        "$formkit": "step",
+        "name": "references",
+        "children": [
+          {
+            "$formkit": "textarea",
+            "label": "Please supply contact information for 2 references",
+            "validation": "required"
+          }
+        ]
+      },
+      {
+        "$formkit": "step",
+        "name": "supplemental",
+        "children": [
+          {
+            "$formkit": "textarea",
+            "label": "Why do you want to work here?",
+            "validation": "required"
+          },
+          {
+            "$formkit": "radio",
+            "label": "How did you hear about us?",
+            "validation": "required",
+            "options": [
+              {
+                "label": "Google",
+                "value": "google"
+              },
+              {
+                "label": "Facebook",
+                "value": "facebook"
+              },
+              {
+                "label": "Twitter",
+                "value": "twitter"
+              },
+              {
+                "label": "Friend",
+                "value": "friend"
+              },
+              {
+                "label": "Other",
+                "value": "other"
+              }
+            ]
+          }
+        ],
+        "sectionsSchema": {
+          "stepNext": {
+            "children": [
+              {
+                "$formkit": "submit",
+                "outerClass": "ml-auto"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+]
