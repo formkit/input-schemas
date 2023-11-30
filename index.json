@@ -33,6 +33,7 @@
     "slider",
     "taglist",
     "toggle",
+    "togglebuttons",
     "transferlist"
   ],
   "addons": ["barcode", "multi-step"],
