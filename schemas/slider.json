@@ -62,6 +62,12 @@
     "label": "Slider: multiple w/ linked inputs",
     "value": [25, 75],
     "showInput": true,
+    "minInputAttrs": {
+      "help": "minimum"
+    },
+    "maxInputAttrs": {
+      "help": "maximum"
+    },
     "help": "Some input help text."
   },
   {
