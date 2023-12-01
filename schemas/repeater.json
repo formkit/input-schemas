@@ -11,11 +11,25 @@
         "name": "email",
         "label": "$: ($index + 1) + '. Email'",
         "validation": "required|email"
+      },
+      {
+        "$formkit": "dropdown",
+        "name": "role",
+        "label": "$: ($index + 1) + '. Role'",
+        "validation": "required",
+        "options": [
+          { "label": "Front-end", "value": "frontend" },
+          { "label": "Back-end", "value": "backend" },
+          { "label": "Full-stack", "value": "fullstack" },
+          { "label": "DevOps", "value": "devops" },
+          { "label": "Designer", "value": "designer" },
+          { "label": "Other", "value": "other" }
+        ]
       }
     ],
     "value": [
-      { "email": "andrew@formkit.com" },
-      { "email": "justin@formkit.com" }
+      { "email": "andrew@formkit.com", "role": "fullstack" },
+      { "email": "justin@formkit.com", "role": "fullstack" }
     ]
   },
   {
