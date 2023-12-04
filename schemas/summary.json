@@ -1,0 +1,43 @@
+[
+  {
+    "$formkit": "form",
+    "actions": false,
+    "children": [
+      {
+        "$cmp": "FormKitSummary",
+        "props": {
+          "data": {
+            "summaryHeader": "There were errors in your form.",
+            "showSummaries": true,
+            "summaries": [
+              {
+                "message": "First name is required.",
+                "id": "input_1",
+                "key": "input_1-rule_required",
+                "type": "validation"
+              },
+              {
+                "message": "Last name is required.",
+                "id": "input_2",
+                "key": "input_2-rule_required",
+                "type": "validation"
+              },
+              {
+                "message": "Date of birth is required.",
+                "id": "input_3",
+                "key": "input_3-rule_required",
+                "type": "validation"
+              },
+              {
+                "message": "Email address is required.",
+                "id": "input_4",
+                "key": "input_4-rule_required",
+                "type": "validation"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+]
