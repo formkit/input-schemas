@@ -1,6 +1,7 @@
 [
   {
     "$formkit": "form",
+    "onSubmit": "$formSubmitHandler",
     "children": [
       {
         "$formkit": "text",

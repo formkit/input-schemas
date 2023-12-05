@@ -2,6 +2,7 @@
   {
     "$formkit": "form",
     "submitLabel": "Proceed to checkout",
+    "onSubmit": "$formSubmitHandler",
     "submitAttrs": {
       "prefixIcon": "dollar",
       "suffixIcon": "submit"

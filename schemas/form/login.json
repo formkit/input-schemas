@@ -2,6 +2,7 @@
   {
     "$formkit": "form",
     "submitLabel": "Login",
+    "onSubmit": "$formSubmitHandler",
     "submitAttrs": {
       "suffixIcon": "submit"
     },

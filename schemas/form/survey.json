@@ -1,7 +1,7 @@
 [
   {
     "$formkit": "form",
-    "onSubmit": "$handleSubmit",
+    "onSubmit": "$formSubmitHandler",
     "submitAttrs": {
       "suffixIcon": "submit"
     },
