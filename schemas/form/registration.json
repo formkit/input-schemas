@@ -8,14 +8,6 @@
     },
     "children": [
       {
-        "$el": "h1",
-        "children": "Register"
-      },
-      {
-        "$el": "p",
-        "children": "Get your tickets for FormConf! The only conference that is all about forms. Hear from industry experts about form stuff then go enjoy nice food and drink on the town."
-      },
-      {
         "$formkit": "repeater",
         "label": "Attendees",
         "help": "Please register as many tickets as you need for your team.",

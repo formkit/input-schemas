@@ -7,10 +7,6 @@
     },
     "children": [
       {
-        "$el": "h1",
-        "children": "Login Form"
-      },
-      {
         "$formkit": "text",
         "label": "Username",
         "name": "username",

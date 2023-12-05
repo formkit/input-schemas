@@ -7,14 +7,6 @@
     },
     "children": [
       {
-        "$el": "h1",
-        "children": "Developer Survey"
-      },
-      {
-        "$el": "p",
-        "children": "Please fill out this survey to help us better understand your needs as a developer."
-      },
-      {
         "$formkit": "radio",
         "label": "Which front-end framework do you use most?",
         "name": "framework",
