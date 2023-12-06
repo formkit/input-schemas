@@ -9,13 +9,13 @@
       {
         "$formkit": "text",
         "name": "email",
-        "label": "Email'",
+        "label": "Email",
         "validation": "required|email"
       },
       {
         "$formkit": "dropdown",
         "name": "role",
-        "label": "Role'",
+        "label": "Role",
         "validation": "required",
         "options": [
           { "label": "Front-end", "value": "frontend" },
@@ -44,7 +44,7 @@
       {
         "$formkit": "text",
         "name": "email",
-        "label": "Email'"
+        "label": "Email"
       }
     ],
     "value": [{ "email": "andrew@formkit.com" }]
@@ -60,7 +60,7 @@
       {
         "$formkit": "text",
         "name": "email",
-        "label": "Email'",
+        "label": "Email",
         "validation": "required|email"
       }
     ],
