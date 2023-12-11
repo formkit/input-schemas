@@ -19,6 +19,14 @@
   },
   {
     "$formkit": "datepicker",
+    "label": "Datepicker: clearable",
+    "placeholder": "Select a date",
+    "help": "Some input help text.",
+    "value": "2017-01-14T15:41:30.000Z",
+    "clearable": true
+  },
+  {
+    "$formkit": "datepicker",
     "label": "Datepicker: with disabled days",
     "placeholder": "Select a date before 2017-01-15",
     "help": "Some input help text.",
