@@ -76,6 +76,7 @@
     "name": "Users",
     "disabled": true,
     "insertControl": true,
+    "add-label": "Add User",
     "children": [
       {
         "$formkit": "text",
