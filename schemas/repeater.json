@@ -68,5 +68,26 @@
       { "email": "andrew@formkit.com" },
       { "email": "justin@formkit.com" }
     ]
+  },
+  {
+    "$formkit": "repeater",
+    "label": "Repeater: disabled with manually re-enabled child",
+    "help": "Some input help text.",
+    "name": "Users",
+    "disabled": true,
+    "insertControl": true,
+    "children": [
+      {
+        "$formkit": "text",
+        "name": "email",
+        "label": "Email",
+        "validation": "required|email",
+        "disabled": false
+      }
+    ],
+    "value": [
+      { "email": "andrew@formkit.com" },
+      { "email": "justin@formkit.com" }
+    ]
   }
 ]
