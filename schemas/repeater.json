@@ -5,6 +5,7 @@
     "name": "Users",
     "help": "Some input help text.",
     "insertControl": true,
+    "add-label": "Add User",
     "children": [
       {
         "$formkit": "text",
@@ -38,6 +39,7 @@
     "name": "Users",
     "help": "Some input help text.",
     "insertControl": true,
+    "add-label": "Add User",
     "validation": "min:2",
     "validation-visibility": "live",
     "children": [
@@ -56,6 +58,7 @@
     "name": "Users",
     "disabled": true,
     "insertControl": true,
+    "add-label": "Add User",
     "children": [
       {
         "$formkit": "text",
