@@ -3,14 +3,14 @@
     "$formkit": "dropdown",
     "label": "Dropdown",
     "help": "Some input help text.",
-    "options": ["Option 1", "Option 2", "Option 3"]
+    "options": "$basicOptions"
   },
   {
     "$formkit": "dropdown",
     "label": "Dropdown: with placeholder",
     "placeholder": "Choose an option",
     "help": "Some input help text.",
-    "options": ["Option 1", "Option 2", "Option 3"]
+    "options": "$basicOptions"
   },
   {
     "$formkit": "dropdown",
@@ -32,7 +32,7 @@
     "placeholder": "Choose an option",
     "help": "Some input help text.",
     "value": "Option 2",
-    "options": ["Option 1", "Option 2", "Option 3"]
+    "options": "$basicOptions"
   },
   {
     "$formkit": "dropdown",
@@ -41,7 +41,7 @@
     "help": "Some input help text.",
     "validation": "required",
     "validationVisibility": "live",
-    "options": ["Option 1", "Option 2", "Option 3"]
+    "options": "$basicOptions"
   },
   {
     "$formkit": "dropdown",
@@ -59,7 +59,7 @@
     "help": "Some input help text.",
     "value": "Option 1",
     "selectionRemovable": true,
-    "options": ["Option 1", "Option 2", "Option 3"]
+    "options": "$basicOptions"
   },
   {
     "$formkit": "dropdown",
@@ -68,7 +68,7 @@
     "help": "Some input help text.",
     "value": ["Option 1", "Option 2"],
     "multiple": true,
-    "options": ["Option 1", "Option 2", "Option 3"]
+    "options": "$basicOptions"
   },
   {
     "$formkit": "dropdown",
@@ -84,10 +84,10 @@
     "label": "Dropdown: selection appearance tags",
     "placeholder": "Choose an option",
     "help": "Some input help text.",
-    "value": ["Option 1", "Option 2", "Option 3"],
+    "value": "$basicOptions",
     "selectionAppearance": "tags",
     "multiple": true,
-    "options": ["Option 1", "Option 2", "Option 3"]
+    "options": "$basicOptions"
   },
   {
     "$formkit": "dropdown",
@@ -128,7 +128,7 @@
     "help": "Some input help text.",
     "prefixIcon": "star",
     "suffixIcon": "submit",
-    "options": ["Option 1", "Option 2", "Option 3"]
+    "options": "$basicOptions"
   },
   {
     "$formkit": "dropdown",
@@ -150,7 +150,7 @@
     "label": "Dropdown: disabled",
     "placeholder": "Choose an option",
     "help": "Some input help text.",
-    "options": ["Option 1", "Option 2", "Option 3"],
+    "options": "$basicOptions",
     "disabled": true
   }
 ]
