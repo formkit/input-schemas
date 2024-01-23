@@ -84,7 +84,7 @@
     "label": "Dropdown: selection appearance tags",
     "placeholder": "Choose an option",
     "help": "Some input help text.",
-    "value": "$basicOptions",
+    "value": ["Option 1", "Option 2", "Option 3"],
     "selectionAppearance": "tags",
     "multiple": true,
     "options": "$basicOptions"
