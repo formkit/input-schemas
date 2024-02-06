@@ -35,6 +35,41 @@
   },
   {
     "$formkit": "repeater",
+    "label": "Repeater with draggable enabled",
+    "name": "Users",
+    "help": "Some input help text.",
+    "insertControl": true,
+    "add-label": "Add User",
+    "draggable": "true",
+    "children": [
+      {
+        "$formkit": "text",
+        "name": "email",
+        "label": "Email",
+        "validation": "required|email"
+      },
+      {
+        "$formkit": "dropdown",
+        "name": "role",
+        "label": "Role",
+        "validation": "required",
+        "options": [
+          { "label": "Front-end", "value": "frontend" },
+          { "label": "Back-end", "value": "backend" },
+          { "label": "Full-stack", "value": "fullstack" },
+          { "label": "DevOps", "value": "devops" },
+          { "label": "Designer", "value": "designer" },
+          { "label": "Other", "value": "other" }
+        ]
+      }
+    ],
+    "value": [
+      { "email": "andrew@formkit.com", "role": "fullstack" },
+      { "email": "justin@formkit.com", "role": "fullstack" }
+    ]
+  },
+  {
+    "$formkit": "repeater",
     "label": "Repeater: invalid",
     "name": "Users",
     "help": "Some input help text.",
