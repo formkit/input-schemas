@@ -53,6 +53,26 @@
   },
   {
     "$formkit": "taglist",
+    "label": "Taglist: with option groups",
+    "placeholder": "Choose an option",
+    "help": "Some input help text.",
+    "options": [
+      {
+        "group": "Fruits",
+        "options": ["Apple", "Banana", "Orange", "Strawberry"]
+      },
+      {
+        "group": "Vegetables",
+        "options": ["Carrot", "Potato", "Broccoli", "Spinach"]
+      },
+      {
+        "group": "Proteins",
+        "options": ["Chicken", "Beef", "Pork", "Fish"]
+      }
+    ]
+  },
+  {
+    "$formkit": "taglist",
     "label": "Taglist: selection appearance tags with many options",
     "placeholder": "Choose an option",
     "help": "Some input help text.",
