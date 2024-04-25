@@ -125,6 +125,7 @@
     "$formkit": "dropdown",
     "label": "Dropdown: with option groups",
     "placeholder": "Choose an option",
+    "multiple": true,
     "help": "Some input help text.",
     "options": [
       {

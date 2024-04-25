@@ -59,6 +59,8 @@
     "$formkit": "autocomplete",
     "label": "Autocomplete: with option groups",
     "placeholder": "Choose an option",
+    "multiple": true,
+    "closeOnSelect": false,
     "help": "Some input help text.",
     "options": [
       {
