@@ -7,6 +7,14 @@
   },
   {
     "$formkit": "colorpicker",
+    "label": "Colorpicke: with icons",
+    "help": "Some input help text.",
+    "prefixIcon": "star",
+    "suffixIcon": "heart",
+    "value": "#DE1B1B"
+  },
+  {
+    "$formkit": "colorpicker",
     "label": "Colorpicker: disabled",
     "disabled": true,
     "help": "Some input help text.",

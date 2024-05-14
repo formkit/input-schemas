@@ -12,6 +12,14 @@
   },
   {
     "$formkit": "datepicker",
+    "label": "Datepicker: with icons",
+    "placeholder": "Select a date",
+    "prefixIcon": "star",
+    "suffixIcon": "heart",
+    "help": "Some input help text."
+  },
+  {
+    "$formkit": "datepicker",
     "label": "Datepicker: with mask overlay",
     "placeholder": "Select a date",
     "help": "Some input help text.",
